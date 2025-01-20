@@ -9,56 +9,106 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         .navbar {
-      background-color: #d0ebf9;
-    }
+            background-color: #162329;
+        }
 
-    .navbar-brand,
-    .nav-link {
-      color: #333333 !important;
-    }
+        .navbar-brand,
+        .nav-link {
+            color: #d0ebf9 !important;
+        }
 
-    .navbar-brand:hover,
-    .nav-link:hover {
-      color: #000000 !important;
-    }
-    footer {
-            background-color: #d0ebf9;
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: #ffffff !important;
+        }
+
+        footer {
+            background-color: #162329;
+            color: #d0ebf9;
+        }
+
+        header {
+            background-image: url('https://www.esteveteijin.com/wp-content/uploads/2022/04/pexels-pixabay-163703.jpg');
+            /* Reemplaza esta URL con tu imagen */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .carousel-item {
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            margin: 50px;
+            background-color: #ffffff;
             color: #000000;
         }
     </style>
+
 </head>
 
-<body>
+<body style="background-color: #2b434e; color:#ffffff ;">
     <nav class="navbar navbar-expand-lg navbar-light nav-underline">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Marisol Sayago</a>
+            <a class="navbar-brand" href="https://marisolsayago.github.io/portafolio/plantillahp.html">
+                <img src="img/marca.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                MSC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav nav-fill w-100">
+                <ul class="navbar-nav justify-content-center w-100">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://marisolsayago.github.io/portafolio/plantillahp.html">Home</a>
+                        <a class="nav-link active" aria-current="page"
+                            href="https://marisolsayago.github.io/portafolio/plantillahp.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.canva.com/design/DAGbiJisams/0zCm70FmLd1-Z4qZY1lrqw/edit?utm_content=DAGbiJisams&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Act 1</a>
+                        <a class="nav-link"
+                            href="https://www.canva.com/design/DAGbiJisams/0zCm70FmLd1-Z4qZY1lrqw/edit?utm_content=DAGbiJisams&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Act
+                            1</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Act 2
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Act 2
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="https://marisolsayago.github.io/portafolio/act2/index2a.html">Act 2 Fase A: HTML5</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="https://marisolsayago.github.io/portafolio/act2/index2b.html">Act 2 Fase B: CSS3</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://marisolsayago.github.io/portafolio/act2/index2a.html">Act 2 Fase A:
+                                    HTML5</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://marisolsayago.github.io/portafolio/act2/index2b.html">Act 2 Fase B:
+                                    CSS3</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://marisolsayago.github.io/portafolio/act3/indexact3.html">Act 3</a>
+                        <a class="nav-link" href="https://marisolsayago.github.io/portafolio/act3/indexact3.html">Act
+                            3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://marisolsayago.github.io/portafolio/act5/indexact5.html"> Act 5</a>
+                        <a class="nav-link" href="https://marisolsayago.github.io/portafolio/act5/indexact5.html"> Act
+                            5</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Act 6</a>
@@ -73,11 +123,90 @@
             </div>
         </div>
     </nav>
+    <header>
+        <h1>Marisol Sayago Cirilo</h1>
+        <p>Explora mis proyectos y actividades de Proyecto Web</p>
+        <a href="https://www.uv.mx/" class="btn btn-primary btn-lg">Universidad Veracruzana</a>
+    </header>
     <div class="container text-center my-5">
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple homepage created with Bootstrap and JavaScript.</p>
-        <button id="alertButton" class="btn btn-primary">Click Me</button>
+        <h1>Bienvenido a mi Website </h1>
     </div>
+    <!-- Contenido principal -->
+    <div class="container my-5">
+        <!-- Espacio para un párrafo -->
+        <div class="text-center mb-4">
+            <p class="lead">Bienvenido a mi portafolio de evidencias, un sitio diseñado para recopilar y presentar de
+                manera organizada mis actividades realizadas,
+                proyectos y aprendizajes de la Experiencia Eduactiva "Proyecto Web". Aquí encontrarás una recopilación
+                organizada de trabajos entregados a lo largo del mes, así como también podrás conocer algo acerca de mis
+                gustos y pasatiempos.</p>
+        </div>
+
+        <!-- Carrusel de imágenes -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/3.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/5.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/6.jpg" class="d-block w-100" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/22.jpg" class="d-block w-100" alt="Imagen 5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <section>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/13.jpg" class="img-fluid" alt="Image">
+                </div>
+                <div class="col-md-8 justify-content-center margin 10px">
+                    <h3>Acerca de... Trogón de las Guayanas</h3>
+                    <H4>Trogon violaceus</H4>
+                    <p>En algunas de las paginas web dentro de este sitio web, podrás encontrar imagenes y detalles
+                        sobre especies como estas que suelo fotografiar cuando salgo a caminar con mis amigos.</p>
+                    <p> Este es un pájaro mediano, de cola larga e inactivo que se encuentra en una variedad de tipos de bosques
+                        húmedos. Los machos son azul iridiscente con el vientre amarillo; las hembras son mayormente
+                        grisáceas donde los machos son azules. El anillo ocular amarillo es visible a corta distancia;
+                        nota las plumas de la cola externa finamente barradas. Permanece quieto y realiza abruptos
+                        vuelos cortos para forrajear insectos grandes; también come fruta. El canto es una serie rápida
+                        de notas. Similar a Green-backed Trogon, pero es un poco más pequeño y tienen un anillo ocular
+                        completo, el patrón de la cola diferente y un canto más rápido.</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
     <footer class="text-center py-3 mt-5">
         <p> Marisol Sayago Cirilo &copy; Enero, 2025</p>
     </footer>
